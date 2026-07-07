@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Justin's Definitive Guide to Toronto — Justin Eusebio</title>
+  <meta name="description" content="From someone who is not from Toronto, but actually loves Toronto." />
+  <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../assets/style.css" />
+  <script>
+    // theme: dark by default; light via nav toggle, remembered across visits
+    (function () {
+      try { if (localStorage.getItem('theme') === 'light') document.documentElement.setAttribute('data-theme', 'light'); } catch (e) {}
+      document.addEventListener('click', function (e) {
+        var btn = e.target.closest ? e.target.closest('.theme-toggle') : null;
+        if (!btn) return;
+        var root = document.documentElement;
+        var toLight = root.getAttribute('data-theme') !== 'light';
+        if (toLight) root.setAttribute('data-theme', 'light'); else root.removeAttribute('data-theme');
+        try { localStorage.setItem('theme', toLight ? 'light' : 'dark'); } catch (e) {}
+      });
+    })();
+  </script>
+  <script src="../../assets/geocities.js" defer></script>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ═══ NAV ═══ -->
+  <nav class="site-nav">
+    <a href="../../" class="nav-logo">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2ea3f2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 2 11 13"/>
+        <path d="M22 2 15 22 11 13 2 9z"/>
+      </svg>
+      justin eusebio<span class="dot">.</span>
+    </a>
+    <div class="nav-links">
+      <a href="../../about/">about</a>
+      <a href="../" class="active">field notes</a>
+      <a href="https://congeecreativecollective.com" class="nav-cta" target="_blank" rel="noopener">congee creative ↗</a>
+      <button class="theme-toggle" type="button" aria-label="toggle light / dark mode">
+        <svg class="icon-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ POST HEADER ═══ -->
+  <div class="page-header">
+    <p class="page-eyebrow">travel · canada · mar 2020</p>
+    <h1 class="page-h1 post-h1">Justin's Definitive Guide to Toronto</h1>
+    <p class="page-sub">From someone who is not from Toronto, but actually loves Toronto.</p>
+  </div>
+
+  <!-- ═══ POST BODY ═══ -->
+  <article class="post-body">
+    <p class="post-placeholder">placeholder — this post is migrating over from the old site. the headings below are scaffolding to write into. when it's ready: delete this note, remove the noindex tag in the &lt;head&gt;, and link this page from /blog/.</p>
+    <p>Intro — why this place, when the trip happened, and the one-line pitch you'd give a friend.</p>
+    <h2>the basics<span class="blue">.</span></h2>
+    <p>Getting there, getting around, where to stay, and how long you actually need.</p>
+    <h2>what to do<span class="blue">.</span></h2>
+    <p>The highlights — what's worth it, and what's skippable.</p>
+    <h2>where to eat<span class="blue">.</span></h2>
+    <p>The meals still being thought about.</p>
+    <h2>final tips<span class="blue">.</span></h2>
+    <p>The stuff you'd only tell a friend over dinner before their trip.</p>
+  </article>
+
+  <a href="../" class="see-all post-back">← back to field notes</a>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-logo">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2ea3f2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 2 11 13"/>
+          <path d="M22 2 15 22 11 13 2 9z"/>
+        </svg>
+      </span>
+      <span>© 2026 Justin Eusebio &nbsp;·&nbsp; <a href="mailto:justin.eusebio@gmail.com">justin.eusebio@gmail.com</a></span>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>

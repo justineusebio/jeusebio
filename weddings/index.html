@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>reverend justin — Justin Eusebio</title>
+  <meta name="description" content="I know… I'm surprised too." />
+  <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script>
+    // theme: dark by default; light via nav toggle, remembered across visits
+    (function () {
+      try { if (localStorage.getItem('theme') === 'light') document.documentElement.setAttribute('data-theme', 'light'); } catch (e) {}
+      document.addEventListener('click', function (e) {
+        var btn = e.target.closest ? e.target.closest('.theme-toggle') : null;
+        if (!btn) return;
+        var root = document.documentElement;
+        var toLight = root.getAttribute('data-theme') !== 'light';
+        if (toLight) root.setAttribute('data-theme', 'light'); else root.removeAttribute('data-theme');
+        try { localStorage.setItem('theme', toLight ? 'light' : 'dark'); } catch (e) {}
+      });
+    })();
+  </script>
+  <script src="../assets/geocities.js" defer></script>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ═══ NAV ═══ -->
+  <nav class="site-nav">
+    <a href="../" class="nav-logo">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2ea3f2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22 2 11 13"/>
+        <path d="M22 2 15 22 11 13 2 9z"/>
+      </svg>
+      justin eusebio<span class="dot">.</span>
+    </a>
+    <div class="nav-links">
+      <a href="../about/">about</a>
+      <a href="../blog/">field notes</a>
+      <a href="https://congeecreativecollective.com" class="nav-cta" target="_blank" rel="noopener">congee creative ↗</a>
+      <button class="theme-toggle" type="button" aria-label="toggle light / dark mode">
+        <svg class="icon-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══ PAGE HEADER ═══ -->
+  <div class="page-header">
+    <p class="page-eyebrow">you found the secret page</p>
+    <h1 class="page-h1">reverend<br><span class="blue">justin.</span></h1>
+    <p class="page-sub">I know… I'm surprised too.</p>
+  </div>
+
+  <!-- ═══ COPY ═══ -->
+  <p class="intro-p">
+    It started as a joke. A friend asked if I'd officiate their wedding, I got
+    ordained online, and then somehow it kept happening. Six weddings later,
+    I'm still not entirely sure how I got here, but I love it every time.
+  </p>
+  <p class="intro-p">
+    I'm not a professional officiant. I don't have a website for this (well,
+    I guess you're looking at it). But if you know me and you're getting
+    married and you want someone who will make your ceremony personal, funny,
+    and just a little bit chaotic, then I'm your guy.
+  </p>
+
+  <hr class="rule">
+
+  <!-- ═══ STATS ═══ -->
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-n">6</div>
+      <div class="stat-l">weddings officiated</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-n">2</div>
+      <div class="stat-l">continents of ceremonies</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-n">100<span class="blue">%</span></div>
+      <div class="stat-l">still married (them, and now me too)</div>
+    </div>
+  </div>
+
+  <hr class="rule">
+
+  <!-- ═══ CTA ═══ -->
+  <p class="intro-p" style="margin-bottom: 3.5rem">
+    Getting married and think this is a good idea?
+    <a href="mailto:justin.eusebio@gmail.com" class="easter-egg">Email me</a>.
+  </p>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="site-footer site-footer--tight">
+    <div class="footer-inner">
+      <span class="footer-logo">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2ea3f2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 2 11 13"/>
+          <path d="M22 2 15 22 11 13 2 9z"/>
+        </svg>
+      </span>
+      <span>© 2026 Justin Eusebio &nbsp;·&nbsp; <a href="mailto:justin.eusebio@gmail.com">justin.eusebio@gmail.com</a></span>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
